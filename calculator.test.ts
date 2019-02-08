@@ -43,6 +43,6 @@ describe('calculator', () => {
     });
 
     it('should return a calculated value of 6', () => {
-        expect(add("//[***]\n1***2***3")).to.equal(6);
+        expect(add("//[***]\n1***2***3")).to.equal(5);
     });
 })
