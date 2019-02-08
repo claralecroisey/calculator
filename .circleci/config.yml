@@ -1,0 +1,6 @@
+jobs:
+  build:
+    steps:
+      - run:
+        name: test
+        command: npm test
